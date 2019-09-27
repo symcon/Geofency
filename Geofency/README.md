@@ -29,8 +29,8 @@ Das Modul dient zum empfangen von Geofency Daten.
 
 ### 3. Software-Installation
 
-* Über den Modul Store das Modul Geofency installieren.
-* Alternativ über das Modul Control folgende URL hinzufügen:
+* Über den Module Store das Modul Geofency installieren.
+* Alternativ über das Module Control folgende URL hinzufügen:
 `https://github.com/symcon/Geofency`
 
 ### 4. Geofency Konfiguration
