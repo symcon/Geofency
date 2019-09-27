@@ -1,7 +1,7 @@
 # Geofency
 Das Modul dient zum empfangen von Geofency Daten.
 
-### Inhaltverzeichnis
+### Inhaltsverzeichnis
 
 1. [Funktionsumfang](#1-funktionsumfang)
 2. [Voraussetzungen](#2-voraussetzungen)
@@ -24,14 +24,14 @@ Das Modul dient zum empfangen von Geofency Daten.
 
 ### 2. Voraussetzungen
 
-- IP-Symcon ab Version 4.x
+- IP-Symcon ab Version 4.2
 - Geofency App für Apple iOS
 
 ### 3. Software-Installation
 
 * Über den Modul Store das Modul Geofency installieren.
 * Alternativ über das Modul Control folgende URL hinzufügen:
-´https://github.com/symcon/Geofency`
+`https://github.com/symcon/Geofency`
 
 ### 4. Geofency Konfiguration
 
