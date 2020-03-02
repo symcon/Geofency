@@ -72,6 +72,8 @@ declare(strict_types=1);
             //Never delete this line!
             parent::ProcessHookData();
 
+            $this->SendDebug('Data', print_r($_POST, true), 0);
+            
             if ((IPS_GetProperty($this->InstanceID, 'Username') != '') || (IPS_GetProperty($this->InstanceID, 'Password') != '')) {
                 if (!isset($_SERVER['PHP_AUTH_USER'])) {
                     $_SERVER['PHP_AUTH_USER'] = '';
@@ -84,12 +86,13 @@ declare(strict_types=1);
                     header('WWW-Authenticate: Basic Realm="Geofency WebHook"');
                     header('HTTP/1.0 401 Unauthorized');
                     echo 'Authorization required';
+                    $this->SendDebug('Unauthorized', print_r($_POST, true), 0);
                     return;
                 }
             }
 
             if (!isset($_POST['device']) || !isset($_POST['id']) || !isset($_POST['name'])) {
-                $this->SendDebug('Geofency', 'Malformed data: ' . print_r($_POST, true), 0);
+                $this->SendDebug('Malformed', print_r($_POST, true), 0);
                 return;
             }
 
