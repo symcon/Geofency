@@ -73,7 +73,7 @@ declare(strict_types=1);
             parent::ProcessHookData();
 
             $this->SendDebug('Data', print_r($_POST, true), 0);
-            
+
             if ((IPS_GetProperty($this->InstanceID, 'Username') != '') || (IPS_GetProperty($this->InstanceID, 'Password') != '')) {
                 if (!isset($_SERVER['PHP_AUTH_USER'])) {
                     $_SERVER['PHP_AUTH_USER'] = '';
