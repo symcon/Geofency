@@ -116,9 +116,9 @@ declare(strict_types=1);
             if (isset($_POST['currentLatitude']) && $_POST['currentLatitude'] > 0 && isset($_POST['currentLongitude']) && $_POST['currentLongitude'] > 0) {
                 SetValue($currentLatitudeID, floatval($_POST['currentLatitude']));
                 SetValue($currentLongitude, floatval($_POST['currentLongitude']));
-                SetValue($directionID, $this->GetDirectionToCenter($_POST['latitude'], $_POST['longitude'], $_POST['currentLatitude'], $_POST['currentLongitude']));
-                SetValue($orientationID, $this->GetDirectionToCenter($_POST['latitude'], $_POST['longitude'], $_POST['currentLatitude'], $_POST['currentLongitude']));
-                SetValue($distanceID, $this->GetDistanceToCenter($_POST['latitude'], $_POST['longitude'], $_POST['currentLatitude'], $_POST['currentLongitude'], 'm'));
+                SetValue($directionID, $this->GetDirectionToCenter(floatval($_POST['latitude']), floatval($_POST['longitude']), floatval($_POST['currentLatitude']), floatval($_POST['currentLongitude'])));
+                SetValue($orientationID, $this->GetDirectionToCenter(floatval($_POST['latitude']), floatval($_POST['longitude']), floatval($_POST['currentLatitude']), floatval($_POST['currentLongitude'])));
+                SetValue($distanceID, $this->GetDistanceToCenter(floatval($_POST['latitude']), floatval($_POST['longitude']), floatval($_POST['currentLatitude']), floatval($_POST['currentLongitude']), 'm'));
             } else {
                 SetValue($currentLatitudeID, 0);
                 SetValue($currentLongitude, 0);
