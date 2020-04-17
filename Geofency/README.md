@@ -63,7 +63,8 @@ Passwort     | Das Webhook Passwort das dann in IP-Symcon hinterlegt wird
 
 ### 5. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" kann das 'Geofency'-Modul mithilfe der Schnellsuche gefunden werden.
+- Unter "Instanz hinzufügen" kann das 'Geofency'-Modul mithilfe des Schnellfilters gefunden werden.
+    - Weitere Informationen zum Hinzufügen von Instanzen in der [Dokumentation der Instanzen](https://www.symcon.de/service/dokumentation/konzepte/instanzen/#Instanz_hinzufügen)
 
 __Konfigurationsseite__:
 
