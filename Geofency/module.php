@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-    include __DIR__ . '/../libs/WebHookModule.php';
+    include_once __DIR__ . '/../libs/WebHookModule.php';
 
     class Geofency extends WebHookModule
     {
