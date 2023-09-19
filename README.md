@@ -6,5 +6,5 @@
 
 Folgende Module beinhaltet das Geofency Repository:
 
-- __Geofency__ ([Dokumentation](Geofency))  
+- __Geofency__ ([Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/geofency))  
 	Empfängt Daten von der Geofency App für Apple iOS.
