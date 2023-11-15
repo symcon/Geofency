@@ -1,7 +1,14 @@
 {
-	"elements":
-	[
-		{ "name": "Username", "type": "ValidationTextBox", "caption": "Username" },
-		{ "name": "Password", "type": "PasswordTextBox", "caption": "Password" }
-	]
+    "elements": [
+        {
+            "name": "Username",
+            "type": "ValidationTextBox",
+            "caption": "Username"
+        },
+        {
+            "name": "Password",
+            "type": "PasswordTextBox",
+            "caption": "Password"
+        }
+    ]
 }
