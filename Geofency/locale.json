@@ -1,8 +1,8 @@
 {
-	"translations": {
-		"de": { 
-			"Username": "Benutzername",
-			"Password": "Passwort"
-		}
-	}
+    "translations": {
+        "de": {
+            "Username": "Benutzername",
+            "Password": "Passwort"
+        }
+    }
 }
