@@ -2,7 +2,8 @@
     "translations": {
         "de": {
             "Username": "Benutzername",
-            "Password": "Passwort"
+            "Password": "Passwort",
+            "https://www.symcon.de/en/service/documentation/module-reference/geofency/": "https://www.symcon.de/de/service/dokumentation/modulreferenz/geofency/"
         }
     }
 }
